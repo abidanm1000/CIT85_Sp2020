@@ -1,0 +1,11 @@
+ul {
+    color: violet;
+}
+
+.cars {
+    color: brown;
+}
+
+[id^=parts] {
+    color: chartreuse;
+}
