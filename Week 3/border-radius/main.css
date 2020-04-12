@@ -1,0 +1,9 @@
+div{
+    width: 40px;
+    height: 20px;
+    border-radius: 100%;
+    border: solid black;
+    background-color: gold;
+    margin: 2px;
+    display: inline-block;
+}
