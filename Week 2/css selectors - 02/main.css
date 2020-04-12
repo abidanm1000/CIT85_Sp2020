@@ -1,0 +1,21 @@
+li:nth-child(even){
+    color: turquoise;
+}
+li:nth-child(odd){
+    color: wheat;
+}
+li:nth-child(5){
+    color: yellowgreen;
+}
+li:nth-child(4n+4){
+    color: rebeccapurple;
+}
+li:first-child{
+    color: violet;
+}
+li:last-child{
+    color: tomato;
+}
+li:only-child{
+    color: teal;
+}
