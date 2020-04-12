@@ -1,0 +1,12 @@
+div{
+    height: 50px;
+    border: solid black;
+    margin: 10px;
+    display: block;
+}
+
+span{
+    border: dashed red;
+    margin: 10px;
+    display: inline;
+}
