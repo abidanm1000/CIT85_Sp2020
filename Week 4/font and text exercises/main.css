@@ -1,0 +1,48 @@
+#item1{
+    font-size: 2rem;
+    font-family: serif;
+}
+#item2{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+#item3{
+    font-size: 2rem;
+    font-family: 'Gotu', sans-serif;
+}
+#item4{
+    font-size: 2rem;
+    font-family: serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#item5{
+    font-size: 2rem;
+    font-family: serif;
+    letter-spacing: 1rem;
+}
+#item6{
+    font-size: 2rem;
+    font-family: serif;
+    text-shadow: 4px 3px 3px red;
+}
+#item7 a:link{
+    font-size: 2rem;
+    font-family: serif;
+    text-decoration: none;
+}
+#item7 a:hover{
+    font-size: 2rem;
+    font-family: serif;
+    text-decoration: underline;
+}
+#item8{
+    font-size: 2rem;
+    font-family: serif;
+    text-decoration: line-through;
+}
+#item9{
+    font-size: 2rem;
+    font-family: serif;
+    text-indent: 4rem;
+}
