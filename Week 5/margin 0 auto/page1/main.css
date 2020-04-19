@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(21, 92, 151);
+}
+
+div {
+    background-color: rgb(44, 189, 63);
+    width: 50rem;
+    margin: -10px auto;
+    border: black solid 5px;
+}
+
+img {
+    border-radius: 100%;
+    border: gold groove 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+#h1 {
+    color: blue;
+}
+
+#h2 {
+    color: red;
+}

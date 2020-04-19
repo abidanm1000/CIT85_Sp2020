@@ -1,0 +1,39 @@
+html {
+    border: blue dotted;
+}
+body {
+    border: blue dotted;
+    margin: 185px;
+}
+#red {
+    border: black solid;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: red;
+    margin: 10px auto;
+}
+#blue {
+    border: black solid;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 10px auto;
+}
+#yellow {
+    border: black solid;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: yellow;
+    margin: 10px auto;
+}
+#green {
+    border: black solid;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: green;
+    margin: 10px auto;
+}
