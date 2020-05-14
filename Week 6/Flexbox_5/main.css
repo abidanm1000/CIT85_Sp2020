@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex: row wrap;
+}
+div {
+    color: white;
+}
+.one {
+    background-color: navy;
+    height: 200px;
+    width: 30%;
+}
+.two {
+    border: red solid 2px;
+    width: 70%;
+}
+#two {
+    background-color: blue;
+    height: 50%;
+}
+#three {
+    background-color: lightskyblue;
+    height: 50%;
+}

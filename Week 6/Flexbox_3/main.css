@@ -1,0 +1,33 @@
+html {
+    height: 100vh;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+div {
+    text-align: center;
+    line-height: 60px;
+    height: 70px;
+}
+.one {
+    width: 100%;
+    background-color: salmon;
+}
+.two {
+    width: 60%;
+    background-color: lightblue;
+}
+.three {
+    width: 40%;
+    background-color: lightgreen;
+}
+.four {
+    width: 50%;
+    background-color: yellow;
+}
+.five {
+    width: 50%;
+    background-color: violet;
+}

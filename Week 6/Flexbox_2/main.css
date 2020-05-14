@@ -1,0 +1,18 @@
+body {
+    display: flex;
+}
+
+div {
+    flex-direction: row;
+    border: black solid 2px;
+    height: 80px;
+    width: 400px;
+}
+
+.one {
+    flex-grow: 1;
+}
+
+.two {
+    flex-grow: 2;
+}

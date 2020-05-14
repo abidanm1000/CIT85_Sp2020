@@ -1,0 +1,24 @@
+html {
+    border: red solid 4px;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    height: 99vh;
+    align-content: flex-start;
+    margin: 0;
+}
+div {
+    background-color: salmon;
+    border: black 2px solid;
+    flex-grow: 1;
+    text-align: center;
+    margin: 4px;
+    height: 70px;
+    width: 150px;
+    line-height: 70px;
+}
+#last {
+    flex-grow: 2;
+    text-align: center;
+}

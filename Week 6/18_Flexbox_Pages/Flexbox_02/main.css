@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    /* flex-direction: row;    Row is the default*/
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: dotted 6px red;
+    height: 95vh;
+}
+div {
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    text-align: center;
+}

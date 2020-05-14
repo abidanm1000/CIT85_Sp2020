@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    border: red 3px solid;
+    width: 600px;
+    margin: 0 auto;
+}
+div {
+    height: 100px;
+}
+.one {
+    background-color: navy;
+    width: 60%;
+}
+.two {
+    background-color: blue;
+    width: 40%;
+}
+.three {
+    background-color: lightblue;
+    width: 33.33%;
+}
+.four {
+    background-color: lightsteelblue;
+    width: 33.33%;
+}
+.five {
+    background-color: lightgray;
+    width: 33.33%;
+}
