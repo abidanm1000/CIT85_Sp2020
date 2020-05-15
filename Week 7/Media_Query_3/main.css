@@ -1,0 +1,22 @@
+html, body, div, ul,p {
+    margin: 0;
+}
+body {
+    border: pink 3px solid;
+    width: 600px;
+    margin: 0 auto;
+}
+ul {
+    border: red 3px solid;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+div {
+    border: red solid 3px;
+}
+p {
+    margin: 10px;
+}
