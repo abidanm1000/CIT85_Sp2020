@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bolder;
+}
+div {
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    padding: 10px 0px;
+}
+#one {
+    background-color: salmon;
+}
+#two {
+    background-color: rgb(65, 206, 225);
+}
+#one1{
+    background-color: rgb(231, 195, 36);
+}
+#two2 {
+    background-color: hotpink;
+}
+#five {
+    background-color: rgb(76, 205, 50);
+}

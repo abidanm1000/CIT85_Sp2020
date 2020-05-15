@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: seagreen;
+}
+li {
+    list-style: none;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+li:hover {
+    background-color: chartreuse;
+}

@@ -1,0 +1,22 @@
+body {
+    padding: 0 2rem;
+}
+#one {
+    width: 100%;
+}
+#two {
+    order: 2;
+    width: 70%;
+}
+#one1 {
+    order: 1;
+    width: 15%;
+}
+#two2 {
+    order: 3;
+    width: 15%;
+}
+#five {
+    order: 4;
+    width: 100%;
+}
