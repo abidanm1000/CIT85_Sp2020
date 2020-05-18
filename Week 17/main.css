@@ -1,0 +1,121 @@
+body,h1,ul,p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-position: cover;
+    background-position-x: -200px ;
+    background-attachment: fixed;
+    color: white;
+}
+div {
+    width: 100%;
+}
+ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+a {
+    padding: 5px;
+    border: white solid 5px;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: gold;
+    color: black;
+    border: black solid 5px;
+    transition-property: all;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+}
+h1 {
+    text-align: center;
+    margin: 2px;
+}
+#header {
+    border: white 5px solid;
+    width: 25%;
+    box-shadow: gold 5px 5px 1px 1px
+}
+#main {
+    width: 50%;
+}
+#main2 {
+    width: 50%;
+}
+#main3 {
+    margin: 0 auto;
+    height: 40px;
+    background-color: rgba(255, 217, 0, 0.459);
+    font-size: 2em;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+}
+#about {
+    padding-top: 10px;
+    background-color: gold;
+    height: 100vh;
+    text-align: center;
+    font-size: 2em;
+}
+i {
+    margin-top: 5px;
+    position: relative;
+    left: 0;
+    animation-name: move-controller;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+@keyframes move-controller {
+    0% {left: 0;}
+    50% {left: 30%;}
+    100% {left: -30%;}
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+hr {
+    border: dashed 8px;
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-position-y: -555px;
+    background-position-x: -200px ;
+    height: 100vh;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+footer > div {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+    width: 500px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(255, 217, 0, 0.637);
+}
+footer > a {
+    height: 30px;
+}
+footer > p {
+    text-align: center;
+    width: 100%;
+}
